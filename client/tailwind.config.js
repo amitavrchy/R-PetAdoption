@@ -5,9 +5,20 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#DFCE9A",
+        secondary: "#2A5C7E",
+        primaryDark: "#B09F6B",
+        darkBg: "#1D232A",
+      },
+      fontFamily: {
+        kanit: ["Kanit", "sans-serif"]
+      }
+    },
   },
   plugins: [
     require('daisyui'),
   ],
+  darkMode: "class",
 }
