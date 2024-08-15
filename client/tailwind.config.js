@@ -11,6 +11,7 @@ export default {
         secondary: "#2A5C7E",
         primaryDark: "#B09F6B",
         darkBg: "#1D232A",
+        greenTheme: "#5fa503"
       },
       fontFamily: {
         kanit: ["Kanit", "sans-serif"]

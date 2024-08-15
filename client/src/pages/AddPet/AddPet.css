@@ -1,0 +1,14 @@
+.label-text {
+    color: #2A5C7E;
+}
+.input {
+    border-color: #cbd5e0;
+    background: transparent;
+}
+.select {
+    border-color: #cbd5e0;
+    background: transparent;
+}
+.textarea {
+    background: transparent
+}
