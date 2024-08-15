@@ -75,7 +75,9 @@ const Header = () => {
                         </ul>
                     </div>
                     <div className="navbar-end gap-5">
-                        <button className='btn bg-secondary text-white border-0'>Add a pet</button>
+                        <Link to="/user-dashboard/add">
+                            <button className='btn bg-secondary text-white border-0'>Add a pet</button>
+                        </Link>
                         {user && <div className="avatar online">
                             <div className="w-10 rounded-full">
                                 <img src={user.photoURL} />
